@@ -22,10 +22,10 @@
 		<?php print form::dropdown('incident_source', 
 		array(""=> Kohana::lang('analysis.report_edit_dropdown_1_default'), 
 		"1"=> Kohana::lang('analysis.report_edit_dropdown_1_item_1'), 
-		"2"=> Kohana::lang('analysis.report_edit_dropdown_1_item_2'), 
+		//"2"=> Kohana::lang('analysis.report_edit_dropdown_1_item_2'), 
 		"3"=> Kohana::lang('analysis.report_edit_dropdown_1_item_3'), 
-		"4"=> Kohana::lang('analysis.report_edit_dropdown_1_item_4'), 
-		"5"=> Kohana::lang('analysis.report_edit_dropdown_1_item_5'), 
+		//"4"=> Kohana::lang('analysis.report_edit_dropdown_1_item_4'), 
+		//"5"=> Kohana::lang('analysis.report_edit_dropdown_1_item_5'), 
 		"6"=> Kohana::lang('analysis.report_edit_dropdown_1_item_6')
 		)
 		, 'incident_source') ?>									
@@ -36,9 +36,9 @@
 		array(""=> Kohana::lang('analysis.report_edit_dropdown_1_default'), 
 		"1"=> Kohana::lang('analysis.report_edit_dropdown_2_item_1'), 
 		"2"=> Kohana::lang('analysis.report_edit_dropdown_2_item_2'), 
-		"3"=> Kohana::lang('analysis.report_edit_dropdown_2_item_3'), 
-		"4"=> Kohana::lang('analysis.report_edit_dropdown_2_item_4'), 
-		"5"=> Kohana::lang('analysis.report_edit_dropdown_2_item_5'), 
+		//"3"=> Kohana::lang('analysis.report_edit_dropdown_2_item_3'), 
+		//"4"=> Kohana::lang('analysis.report_edit_dropdown_2_item_4'), 
+		//"5"=> Kohana::lang('analysis.report_edit_dropdown_2_item_5'), 
 		"6"=> Kohana::lang('analysis.report_edit_dropdown_2_item_6')
 		)
 		, 'incident_information') ?>									
